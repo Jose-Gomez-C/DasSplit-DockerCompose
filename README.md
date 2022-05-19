@@ -19,7 +19,7 @@ Como vemos en la anterior imagen se creara dos imágenes de Docker en las cuales
 
 ## Instalación
 
-- Agregar un archivo .env en el backend, cual estén las credenciales de nuestra base de datos, utilizar como nombre de las variables las siguientes:
+- Agregar un archivo .env en el backend, en el cual estén las credenciales de nuestra base de datos, utilizar como nombre de las variables las siguientes:
   ~~~
   USER={Usuario}
   PASSWORD={Contraseña}
