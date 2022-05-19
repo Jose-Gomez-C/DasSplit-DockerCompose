@@ -1,0 +1,24 @@
+version: '3.2'
+services:
+  api:
+    build:
+      context: ../DasSplit-Backend
+      dockerfile: ../DasSplit-Backend/Dockerfile
+    ports:
+      - "8080:8080"
+    expose:
+      - "8080"
+    env_file:
+      - ../DasSplit-Backend/.env
+
+  ui:
+    build:
+      context: ../DasSplit-Frontend
+      dockerfile: ../DasSplit-Frontend/Dockerfile
+    ports:
+      - "3000:3000"
+    expose:
+      - "3000"
+    env_file:
+      - ../DasSplit-Frontend/.env
+    command: npm start
