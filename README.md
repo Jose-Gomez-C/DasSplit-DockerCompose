@@ -41,7 +41,7 @@ Como vemos en la anterior imagen se creara dos imágenes de Docker en las cuales
   REACT_APP_MESSAGING_SENDER_ID= {Información que se encontrará en Firebase}
   REACT_APP_APP_ID= {Información que se encontrará en Firebase}
   ~~~
-- Ir a la ruta de nuestro DasSplit DockerCompose y constuir nuestra app para eso ejecutaremos el siguiente comando:
+- Ir a la ruta de nuestro DasSplit DockerCompose y construir nuestra app para eso ejecutaremos el siguiente comando:
   ~~~
   $ docker compose build
   ~~~
