@@ -58,4 +58,4 @@ Como vemos en la anterior imagen se creara dos imágenes de Docker en las cuales
 [José Luis Gómez Camacho](https://github.com/Jose-Gomez-C)
 
 ## Licencia
-Este proyecto está licenciado bajo la GNU v3.0 - ver el archivo [LICENSE.md]() para más detalles
+Este proyecto está licenciado bajo la GNU v3.0 - ver el archivo [LICENSE.md](https://github.com/Jose-Gomez-C/DasSplit-DockerCompose/blob/main/LICENSE.md) para más detalles
