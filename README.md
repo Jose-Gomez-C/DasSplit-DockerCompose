@@ -45,7 +45,7 @@ Como vemos en la anterior imagen se creara dos imágenes de Docker en las cuales
   ~~~
   $ docker compose build
   ~~~
-- Si deseamos ejecutar nuestra app por un corto tiempo ejecutaremos el siguiente comando:
+- Si deseamos nuestra app por un corto tiempo ejecutaremos el siguiente comando:
   ~~~
   $ docker compose up
   ~~~
