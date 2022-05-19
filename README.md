@@ -2,7 +2,7 @@
 
 A continuación, describiremos la arquitectura realiza para la aplicación DasSplit.
 
-## Prerequisitos
+## Prerrequisitos
 - Docker
 - Docker Compose
 - [Requisitos de DasSplit Backend](https://github.com/Jose-Gomez-C/DasSplit-Backend/blob/main/README.md)
