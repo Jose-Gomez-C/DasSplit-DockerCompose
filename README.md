@@ -29,23 +29,23 @@ Como vemos en la anterior imagen se creara dos imágenes de Docker en las cuales
   ~~~
   $ gradle build
   ~~~
-- Agregar un archivo .env en el frontend, cual estén las credenciales de nuestro servicio de FireBase y la ruta de nuestro backend, utilizar como nombre de las variables las siguientes:
+- Agregar un archivo .env en el frontend, en el cual estén las credenciales de nuestro servicio de FireBase y la ruta de nuestro backend, utilizar como nombre de las variables las siguientes:
   ~~~
   REACT_APP_API_HOST= {}
   REACT_APP_API_PROTOCOL= "http"
-  REACT_APP_FIREBASE_API_KEY= {Informacion que se encontrar en Firebase}
-  REACT_APP_AUTH_DOMAIN= {Informacion que se encontrar en Firebase}
-  REACT_APP_DATABASES_URL= {Informacion que se encontrar en Firebase}
-  REACT_APP_PROJECT_ID = {Informacion que se encontrar en Firebase}
-  REACT_APP_STORAGE_BUCKET= {Informacion que se encontrar en Firebase}
-  REACT_APP_MESSAGING_SENDER_ID= {Informacion que se encontrar en Firebase}
-  REACT_APP_APP_ID= {Informacion que se encontrar en Firebase}
+  REACT_APP_FIREBASE_API_KEY= {Información que se encontrara en Firebase}
+  REACT_APP_AUTH_DOMAIN= {Información que se encontrara en Firebase}
+  REACT_APP_DATABASES_URL= {Información que se encontrara en Firebase}
+  REACT_APP_PROJECT_ID = {Información que se encontrara en Firebase}
+  REACT_APP_STORAGE_BUCKET= {Información que se encontrara en Firebase}
+  REACT_APP_MESSAGING_SENDER_ID= {Información que se encontrara en Firebase}
+  REACT_APP_APP_ID= {Información que se encontrara en Firebase}
   ~~~
-- Ir a la ruta de nuestro DasSplit DockerCompose y constuir nuestra app para eso ejecutaremos el siguente comando:
+- Ir a la ruta de nuestro DasSplit DockerCompose y constuir nuestra app para eso ejecutaremos el siguiente comando:
   ~~~
   $ docker compose build
   ~~~
-- Si deseamos ejecutar nuestra app por un tiempo corto tiempo ejecutaremos el siguente comando:
+- Si deseamos ejecutar nuestra app por un tiempo corto tiempo ejecutaremos el siguiente comando:
   ~~~
   $ docker compose up
   ~~~
