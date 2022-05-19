@@ -33,23 +33,23 @@ Como vemos en la anterior imagen se creara dos imágenes de Docker en las cuales
   ~~~
   REACT_APP_API_HOST= {}
   REACT_APP_API_PROTOCOL= "http"
-  REACT_APP_FIREBASE_API_KEY= {Información que se encontrara en Firebase}
-  REACT_APP_AUTH_DOMAIN= {Información que se encontrara en Firebase}
-  REACT_APP_DATABASES_URL= {Información que se encontrara en Firebase}
-  REACT_APP_PROJECT_ID = {Información que se encontrara en Firebase}
-  REACT_APP_STORAGE_BUCKET= {Información que se encontrara en Firebase}
-  REACT_APP_MESSAGING_SENDER_ID= {Información que se encontrara en Firebase}
-  REACT_APP_APP_ID= {Información que se encontrara en Firebase}
+  REACT_APP_FIREBASE_API_KEY= {Información que se encontrará en Firebase}
+  REACT_APP_AUTH_DOMAIN= {Información que se encontrará en Firebase}
+  REACT_APP_DATABASES_URL= {Información que se encontrará en Firebase}
+  REACT_APP_PROJECT_ID = {Información que se encontrará en Firebase}
+  REACT_APP_STORAGE_BUCKET= {Información que se encontrará en Firebase}
+  REACT_APP_MESSAGING_SENDER_ID= {Información que se encontrará en Firebase}
+  REACT_APP_APP_ID= {Información que se encontrará en Firebase}
   ~~~
 - Ir a la ruta de nuestro DasSplit DockerCompose y constuir nuestra app para eso ejecutaremos el siguiente comando:
   ~~~
   $ docker compose build
   ~~~
-- Si deseamos ejecutar nuestra app por un tiempo corto tiempo ejecutaremos el siguiente comando:
+- Si deseamos ejecutar nuestra app por un corto tiempo ejecutaremos el siguiente comando:
   ~~~
   $ docker compose up
   ~~~
-- Si lo queremos dejar ejecutando en segundo plano ejecutamos el comando:
+- Si lo queremos dejar en segundo plano ejecutamos el comando:
   ~~~
   $ docker compose up -d 
   ~~~
