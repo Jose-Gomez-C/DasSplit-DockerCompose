@@ -19,17 +19,17 @@ Como vemos en la anterior imagen se creara dos imágenes de Docker en las cuales
 
 ## Instalación
 
-- Agregar un archivo .env en el backend, cual esten las credeciales de nuestra base de datos, utilizar como nombre de las variables las siguentes:
+- Agregar un archivo .env en el backend, cual estén las credenciales de nuestra base de datos, utilizar como nombre de las variables las siguientes:
   ~~~
   USER={Usuario}
   PASSWORD={Contraseña}
   NAME_DATA_BASE={Nombre de la base de datos}
   ~~~
-- Ejecutar en el proyecto de DasSplit Backend el siguente comando:
+- Ejecutar en el proyecto de DasSplit Backend el siguiente comando:
   ~~~
   $ gradle build
   ~~~
-- Agregar un archivo .env en el frontend, cual esten las credeciales de nuestro servicio de FireBase y la ruta de nuestro backend, utilizar como nombre de las variables las siguentes:
+- Agregar un archivo .env en el frontend, cual estén las credenciales de nuestro servicio de FireBase y la ruta de nuestro backend, utilizar como nombre de las variables las siguientes:
   ~~~
   REACT_APP_API_HOST= {}
   REACT_APP_API_PROTOCOL= "http"
