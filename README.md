@@ -31,7 +31,7 @@ Como vemos en la anterior figura se crearán dos imágenes de Docker en las cual
   ~~~
 - Agregar un archivo .env en el frontend, en el cual estén las credenciales de nuestro servicio de FireBase y la ruta de nuestro backend, utilizar como nombre de las variables las siguientes:
   ~~~
-  REACT_APP_API_HOST= {}
+  REACT_APP_API_HOST= {Url en la cual está el Backend}
   REACT_APP_API_PROTOCOL= "http"
   REACT_APP_FIREBASE_API_KEY= {Información que se encontrará en Firebase}
   REACT_APP_AUTH_DOMAIN= {Información que se encontrará en Firebase}
